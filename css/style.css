@@ -1,0 +1,139 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 15rem;
+    border: solid 1px #000;
+    color: #eee;
+    background-color: #666633;
+}
+
+.header-footer {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../images/CIMG0216.JPG);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+
+.header-nav {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    
+}
+
+.nav-ul {
+    display: flex;
+    margin-left: 30rem;
+    
+}
+.nav-ul li{
+    width: 100px;
+    list-style: none;
+    height: 60px;
+    border: solid 2px #000;
+    text-align: center;
+    
+}
+a {
+    display: block;
+    text-decoration: none;
+    
+}
+.li {
+    line-height: 60px;
+}
+
+/*aboutの配置*/
+.article-about {
+    width:100%;
+    height: 60vh;
+
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5rem;
+}
+.photos {
+    width: 90%;
+    display: flex;
+    position: absolute;
+}
+.taki-photo {
+    width: 15%;
+    height: 20vh;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: 7rem;
+    margin: 5rem auto;
+
+}
+.syoukai_section {
+    margin-top: 5rem;
+    position: relative;
+    right: 13rem;
+}
+
+/*photoの配置*/
+
+.photos-box {
+    width: 100%;
+    height: 70vh;
+    
+}
+
+.photos-main {
+    width: 100%;
+    height: 35vh;
+}
+.photo_sub_main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.photo_sub_sub_main {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.photo_display {
+    width: 100%;
+    padding: 20px ;
+    margin-right: 20px;
+    margin-top: 5rem;
+    background-color: #3399ff;
+}
+
+.sea {
+    width: 100%;
+    height: 25vh;
+    padding: 5px;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 10vh;
+    color: #fff;
+    background-color: #33cc33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
